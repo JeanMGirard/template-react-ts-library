@@ -8,6 +8,9 @@ export type IWrapperProps = { text: string };
 export class EnvoyWrapper extends React.Component<IWrapperProps> {
     constructor(props: IWrapperProps) {
         super(props);
+        this.state = {
+
+        }
     }
     render() {
         const { text } = this.props;

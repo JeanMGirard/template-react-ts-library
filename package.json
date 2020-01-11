@@ -7,7 +7,9 @@
   "jsnext:main": "build/index.es.js",
   "scripts": {
     "build": "rollup -c",
-    "test": "jest"
+    "test": "jest",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "files": [
     "build"
@@ -24,14 +26,21 @@
     "react-dom": "^16.0.0"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-info": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8",
     "@types/jest": "^24.0.25",
     "@types/node": "^13.1.6",
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
     "@types/react-test-renderer": "^16.9.1",
+    "awesome-typescript-loader": "^5.2.1",
     "babel-cli": "^6.26.0",
     "jest": "^24.9.0",
     "react": "^16.12.0",
+    "react-docgen-typescript-loader": "^3.6.0",
     "react-dom": "^16.12.0",
     "react-test-renderer": "^16.12.0",
     "rollup": "^1.29.0",
@@ -39,6 +48,9 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-typescript2": "^0.25.3",
+    "storybook-addon-designs": "^5.1.1",
+    "storybook-addon-xd-designs": "^5.3.1",
+    "storybook-readme": "^5.0.8",
     "ts-jest": "^24.3.0",
     "typescript": "^3.7.4"
   }
