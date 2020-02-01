@@ -18,8 +18,14 @@
     "curly": false, // forces no one-liners if
     "no-consecutive-blank-lines": false, // allow more than 2 lines to be empty
     // override tslint-react rules here
-    "jsx-wrap-multiline": true,
-    "jsx-self-close": true
+    "jsx-wrap-multiline": false,
+    "jsx-self-close": true,
+    "jsx-alignment": false,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
+    "no-shadowed-variable": false
   },
   "rulesDirectory": []
 }
