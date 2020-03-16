@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "build/index.js",
+  "browser": "build/index.umd.js",
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
   "scripts": {
